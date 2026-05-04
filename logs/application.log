@@ -110,3 +110,5 @@
 2026-05-04T18:57:48.986+05:00  INFO 23484 --- [secure-note] [http-nio-8080-exec-6] o.e.s.controller.NoteController          : Fetching all notes
 2026-05-04T18:57:59.758+05:00  INFO 23484 --- [secure-note] [http-nio-8080-exec-8] o.e.s.controller.NoteController          : Fetching note with id: 1
 2026-05-04T18:58:08.902+05:00  INFO 23484 --- [secure-note] [http-nio-8080-exec-9] o.e.s.controller.NoteController          : Deleting note with id: 1
+2026-05-04T23:06:48.806+05:00  INFO 23484 --- [secure-note] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-04T23:06:49.048+05:00  INFO 23484 --- [secure-note] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
