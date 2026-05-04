@@ -91,3 +91,22 @@
 2026-05-04T18:41:47.192+05:00  INFO 5780 --- [secure-note] [main] o.e.s.SecureNoteApplicationTests         : Starting SecureNoteApplicationTests using Java 17.0.17 with PID 5780 (started by ivaik in C:\Users\ivaik\OneDrive\Desktop\SecureWebSystemJava\secure-note)
 2026-05-04T18:41:47.195+05:00  INFO 5780 --- [secure-note] [main] o.e.s.SecureNoteApplicationTests         : No active profile set, falling back to 1 default profile: "default"
 2026-05-04T18:41:49.719+05:00  INFO 5780 --- [secure-note] [main] o.e.s.SecureNoteApplicationTests         : Started SecureNoteApplicationTests in 3.173 seconds (process running for 4.868)
+2026-05-04T18:45:48.405+05:00  INFO 23484 --- [secure-note] [restartedMain] o.e.securenote.SecureNoteApplication     : Starting SecureNoteApplication using Java 17.0.17 with PID 23484 (C:\Users\ivaik\OneDrive\Desktop\SecureWebSystemJava\secure-note\target\classes started by ivaik in C:\Users\ivaik\OneDrive\Desktop\SecureWebSystemJava\secure-note)
+2026-05-04T18:45:48.409+05:00  INFO 23484 --- [secure-note] [restartedMain] o.e.securenote.SecureNoteApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-05-04T18:45:48.456+05:00  INFO 23484 --- [secure-note] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-04T18:45:48.456+05:00  INFO 23484 --- [secure-note] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-04T18:45:49.206+05:00  INFO 23484 --- [secure-note] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-04T18:45:49.217+05:00  INFO 23484 --- [secure-note] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-04T18:45:49.217+05:00  INFO 23484 --- [secure-note] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-04T18:45:49.256+05:00  INFO 23484 --- [secure-note] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 799 ms
+2026-05-04T18:45:49.651+05:00  INFO 23484 --- [secure-note] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-04T18:45:49.659+05:00  INFO 23484 --- [secure-note] [restartedMain] o.e.securenote.SecureNoteApplication     : Started SecureNoteApplication in 1.736 seconds (process running for 2.492)
+2026-05-04T18:49:49.273+05:00  INFO 23484 --- [secure-note] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-04T18:49:49.277+05:00  INFO 23484 --- [secure-note] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-04T18:49:49.294+05:00  INFO 23484 --- [secure-note] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2026-05-04T18:49:49.422+05:00  INFO 23484 --- [secure-note] [http-nio-8080-exec-2] o.e.s.controller.NoteController          : Fetching all notes
+2026-05-04T18:57:15.111+05:00  INFO 23484 --- [secure-note] [http-nio-8080-exec-5] o.e.s.controller.NoteController          : Fetching all notes
+2026-05-04T18:57:31.360+05:00  INFO 23484 --- [secure-note] [http-nio-8080-exec-7] o.e.s.controller.NoteController          : Creating a new note with title: First note
+2026-05-04T18:57:48.986+05:00  INFO 23484 --- [secure-note] [http-nio-8080-exec-6] o.e.s.controller.NoteController          : Fetching all notes
+2026-05-04T18:57:59.758+05:00  INFO 23484 --- [secure-note] [http-nio-8080-exec-8] o.e.s.controller.NoteController          : Fetching note with id: 1
+2026-05-04T18:58:08.902+05:00  INFO 23484 --- [secure-note] [http-nio-8080-exec-9] o.e.s.controller.NoteController          : Deleting note with id: 1
