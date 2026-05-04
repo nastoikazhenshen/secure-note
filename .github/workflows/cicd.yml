@@ -5,6 +5,7 @@ on:
     branches:
       - main
   pull_request:
+  workflow_dispatch:
 
 jobs:
   build-test-security:
@@ -32,7 +33,7 @@ jobs:
         run: mvn clean test
 
       - name: Run code linting
-        run: mvn checkstyle:check
+        run: mvn checkstyle:checkstyle
 
       - name: Run SAST with Semgrep
         run: |
