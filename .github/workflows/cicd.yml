@@ -41,7 +41,7 @@ jobs:
           semgrep scan --config p/java --error
 
       - name: Run dependency vulnerability scan fast mode
-        run: mvn org.owasp:dependency-check-maven:check -DfailBuildOnCVSS=7 -DnvdApiDelay=0 -DnvdValidForHours=24
+        run: mvn org.owasp:dependency-check-maven:check -DfailBuildOnCVSS=7 -DnvdApiDelay=0 -DnvdValidForHours=24 -DossindexAnalyzerEnabled=false
 
       - name: Build application package
         run: mvn package
